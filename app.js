@@ -85,11 +85,11 @@ let T = new Twit({
     }
 
 async.timesSeries(Math.floor(options.count / 20), function(n, next) {
-    fetchTweets(function(err) {
+    fetchTweets((err) => {
         console.log("Currently on " + (n + 1) * 20 + " tweets...");
         next(err);
     });
-}, function(err) {
+}, (err) => {
     if (err) {
         return callback("Error at waterfall end cb");
     }
