@@ -1,8 +1,8 @@
 # list-tweets
 
-List all tweets of a user because why not?
+List tweets because why not?
 
-Tweets are exported to a XLSX file.
+Tweets are exported to XLSX with a user defined count.
 
 # Setup
 - `npm install` app dependencies
