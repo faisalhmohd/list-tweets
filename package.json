@@ -1,0 +1,17 @@
+{
+  "name": "list-tweets",
+  "version": "0.1.0",
+  "description": "Get all tweets for a user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Faisal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "command-line-args": "^3.0.1",
+    "node-xls": "0.0.8",
+    "twit": "^2.2.5"
+  }
+}
